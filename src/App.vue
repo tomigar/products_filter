@@ -44,6 +44,7 @@ const query = gql(`
       }
     }
   }`)
+  console.log("aaa");
   axios
       .post(url, {
         headers: {
