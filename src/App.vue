@@ -3,7 +3,7 @@ import axios from 'axios';
 import gql from "graphql-tag";
 
 
-const url = "http://venia.magento.com/graphql";
+const url = "https://venia.magento.com/graphql";
 
 const query = gql(`
 {
